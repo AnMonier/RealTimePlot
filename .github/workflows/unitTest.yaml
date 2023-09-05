@@ -1,6 +1,9 @@
 name: First action !
 
-on: push
+on:
+  push:
+    branches:
+      - main  # Change this to your main branch name
 
 jobs:
   build:
