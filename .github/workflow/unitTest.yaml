@@ -1,7 +1,6 @@
 name: First action !
 
-on:
-  push:
+on: push
 
 jobs:
   build:
